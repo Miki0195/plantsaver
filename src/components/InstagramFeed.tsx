@@ -56,46 +56,70 @@ const InstagramFeed: React.FC<InstagramFeedProps> = ({
   }, [accessToken, limit]);
 
   // Placeholder posts when no access token is provided
-  const placeholderPosts = [
+  const placeholderPosts: InstagramPost[] = [
     {
       id: '1',
+      media_type: 'IMAGE',
       media_url: 'https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=400&h=400&fit=crop',
       permalink: 'https://www.instagram.com/plant_saver_and_accounting/',
+      timestamp: new Date().toISOString(),
+      caption: 'Precíziós mezőgazdasági drónfelmérés',
     },
     {
       id: '2',
+      media_type: 'IMAGE',
       media_url: 'https://images.unsplash.com/photo-1560493676-04071c5f467b?w=400&h=400&fit=crop',
       permalink: 'https://www.instagram.com/plant_saver_and_accounting/',
+      timestamp: new Date().toISOString(),
+      caption: 'NDVI térképezés és növényállomány felmérés',
     },
     {
       id: '3',
+      media_type: 'IMAGE',
       media_url: 'https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=400&h=400&fit=crop',
       permalink: 'https://www.instagram.com/plant_saver_and_accounting/',
+      timestamp: new Date().toISOString(),
+      caption: 'Mezőgazdasági területmérés drónnal',
     },
     {
       id: '4',
+      media_type: 'IMAGE',
       media_url: 'https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=400&h=400&fit=crop',
       permalink: 'https://www.instagram.com/plant_saver_and_accounting/',
+      timestamp: new Date().toISOString(),
+      caption: 'Vadkár felmérés és dokumentálás',
     },
     {
       id: '5',
+      media_type: 'IMAGE',
       media_url: 'https://images.unsplash.com/photo-1536147116438-62679a5e01f2?w=400&h=400&fit=crop',
       permalink: 'https://www.instagram.com/plant_saver_and_accounting/',
+      timestamp: new Date().toISOString(),
+      caption: 'Professzionális drónos fotók',
     },
     {
       id: '6',
+      media_type: 'IMAGE',
       media_url: 'https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?w=400&h=400&fit=crop',
       permalink: 'https://www.instagram.com/plant_saver_and_accounting/',
+      timestamp: new Date().toISOString(),
+      caption: 'Hozambecslés és terméselemzés',
     },
     {
       id: '7',
+      media_type: 'IMAGE',
       media_url: 'https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=400&h=400&fit=crop',
       permalink: 'https://www.instagram.com/plant_saver_and_accounting/',
+      timestamp: new Date().toISOString(),
+      caption: 'Mezőgazdasági könyvelés és tanácsadás',
     },
     {
       id: '8',
+      media_type: 'IMAGE',
       media_url: 'https://images.unsplash.com/photo-1574180566232-aaad1b5b8450?w=400&h=400&fit=crop',
       permalink: 'https://www.instagram.com/plant_saver_and_accounting/',
+      timestamp: new Date().toISOString(),
+      caption: 'Modern technológia a mezőgazdaságban',
     },
   ];
 
