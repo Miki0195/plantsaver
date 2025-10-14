@@ -1,0 +1,161 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "references": "References",
+    "about": "About Us",
+    "whyUs": "Why Us?",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Precision Technology in Agriculture",
+    "subtitle": "Drone surveys and professional accounting services in one place",
+    "cta": "Request a Quote",
+    "scrollDown": "Scroll down"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Innovative solutions in agriculture and business",
+    "drone": {
+      "title": "Precision Drone Surveys",
+      "description": "Professional agricultural mapping with the latest drone technology",
+      "ndvi": "NDVI Mapping",
+      "ndviDesc": "Accurate assessment of crop health",
+      "yield": "Yield Estimation",
+      "yieldDesc": "Precise forecasting of expected crop yield",
+      "damage": "Wildlife Damage Assessment",
+      "damageDesc": "Fast and accurate damage assessment with drones",
+      "area": "Area Measurement",
+      "areaDesc": "Precise land surveying"
+    },
+    "accounting": {
+      "title": "Agricultural Accounting",
+      "description": "Comprehensive accounting and tax advisory services",
+      "tax": "Tax Advisory",
+      "taxDesc": "Expert advice on tax optimization",
+      "payroll": "Payroll Services",
+      "payroll Desc": "Reliable payroll services",
+      "business": "Business Accounting",
+      "businessDesc": "Accounting for sole proprietors, partnerships, and corporations"
+    },
+    "media": {
+      "title": "Video and Photo Content",
+      "description": "Professional drone photography and videography",
+      "dronePhoto": "Drone Photos and Videos",
+      "dronePhotoDesc": "Breathtaking aerial footage",
+      "promo": "Promotional Films",
+      "promoDesc": "Attention-grabbing marketing materials",
+      "social": "Social Media Content",
+      "socialDesc": "Unique content for social media"
+    }
+  },
+  "references": {
+    "title": "Our Work",
+    "subtitle": "Projects and success stories",
+    "viewMore": "View More",
+    "socialFeed": "Social Media"
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "Experience, expertise, precision",
+    "intro": "Plant Saver & Accounting Ltd. provides professional services in two key areas: precision agriculture and accounting. Our team is committed to providing our clients with the most modern technology and the most reliable professional background.",
+    "experience": "More than 5 years of experience in agricultural drone surveys",
+    "certified": "Official drone pilot licenses and insurance",
+    "expertise": "Accounting expertise for agricultural businesses",
+    "mission": "Our mission is to help our clients achieve more efficient farming and transparent financial management by combining the latest technology with traditional expertise."
+  },
+  "whyUs": {
+    "title": "Why Choose Us?",
+    "subtitle": "What we offer",
+    "precision": {
+      "title": "Precision",
+      "description": "Centimeter-accurate surveys with state-of-the-art technology"
+    },
+    "speed": {
+      "title": "Speed",
+      "description": "Fast project execution and on-time delivery"
+    },
+    "expertise": {
+      "title": "Expertise",
+      "description": "Years of experience and continuous professional development"
+    },
+    "reliability": {
+      "title": "Reliability",
+      "description": "Accurate, detailed work and comprehensive customer service"
+    },
+    "technology": {
+      "title": "Modern Technology",
+      "description": "Using the latest drones and software"
+    },
+    "local": {
+      "title": "Local Presence",
+      "description": "Quick availability in Győr-Moson-Sopron county"
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Get in touch with us",
+    "form": {
+      "title": "Request a Quote",
+      "serviceType": "Service Type",
+      "selectService": "Select service",
+      "droneSurvey": "Drone Survey",
+      "accounting": "Accounting",
+      "videoContent": "Video/Photo Content",
+      "budget": "Estimated Budget",
+      "selectBudget": "Select (optional)",
+      "under100": "Under 100,000 HUF",
+      "100to300": "100,000 - 300,000 HUF",
+      "300to500": "300,000 - 500,000 HUF",
+      "above500": "Above 500,000 HUF",
+      "companyName": "Company / Farm Name",
+      "contactName": "Contact Person Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "message": "Message",
+      "messagePlaceholder": "Describe your request in detail...",
+      "submit": "Request Quote",
+      "sending": "Sending...",
+      "success": "Thank you! We will contact you shortly.",
+      "error": "An error occurred. Please try again or call us."
+    },
+    "info": {
+      "title": "Contact Information",
+      "address": "Mosonmagyaróvár, Győr-Moson-Sopron County",
+      "phone": "+36 XX XXX XXXX",
+      "email": "info@plantsaver.hu"
+    }
+  },
+  "footer": {
+    "description": "Precision agricultural drone surveys and professional accounting services.",
+    "services": "Services",
+    "company": "Company",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms and Conditions",
+    "rights": "All rights reserved"
+  },
+  "seo": {
+    "home": {
+      "title": "Plant Saver & Accounting Ltd. - Precision Agriculture and Accounting",
+      "description": "Professional drone surveys, NDVI mapping, wildlife damage assessment and agricultural accounting in Győr-Moson-Sopron county."
+    },
+    "services": {
+      "title": "Services - Plant Saver & Accounting",
+      "description": "Drone surveys, agricultural accounting, tax advisory, payroll services and video content."
+    },
+    "references": {
+      "title": "References - Plant Saver & Accounting",
+      "description": "View our work and success stories in agricultural drone surveys."
+    },
+    "about": {
+      "title": "About Us - Plant Saver & Accounting",
+      "description": "Learn about our team, experience and mission in precision agriculture."
+    },
+    "contact": {
+      "title": "Contact - Plant Saver & Accounting",
+      "description": "Request a quote for drone surveys or accounting services. Quick contact."
+    }
+  }
+}
+

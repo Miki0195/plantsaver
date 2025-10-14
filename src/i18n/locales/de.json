@@ -1,0 +1,161 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "services": "Dienstleistungen",
+    "references": "Referenzen",
+    "about": "Über Uns",
+    "whyUs": "Warum Wir?",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "Präzisionstechnologie in der Landwirtschaft",
+    "subtitle": "Drohnenvermessungen und professionelle Buchhaltungsdienstleistungen an einem Ort",
+    "cta": "Angebot anfordern",
+    "scrollDown": "Nach unten scrollen"
+  },
+  "services": {
+    "title": "Unsere Dienstleistungen",
+    "subtitle": "Innovative Lösungen in Landwirtschaft und Geschäftsleben",
+    "drone": {
+      "title": "Präzisions-Drohnenvermessungen",
+      "description": "Professionelle landwirtschaftliche Kartierung mit modernster Drohnentechnologie",
+      "ndvi": "NDVI-Kartierung",
+      "ndviDesc": "Genaue Bewertung der Pflanzengesundheit",
+      "yield": "Ertragsschätzung",
+      "yieldDesc": "Präzise Vorhersage des erwarteten Ernteertrags",
+      "damage": "Wildschadensbewertung",
+      "damageDesc": "Schnelle und präzise Schadensschätzung mit Drohnen",
+      "area": "Flächenmessung",
+      "areaDesc": "Präzise Landvermessung"
+    },
+    "accounting": {
+      "title": "Landwirtschaftliche Buchhaltung",
+      "description": "Umfassende Buchhaltungs- und Steuerberatungsdienstleistungen",
+      "tax": "Steuerberatung",
+      "taxDesc": "Fachkundige Beratung zur Steueroptimierung",
+      "payroll": "Lohnbuchhaltung",
+      "payrollDesc": "Zuverlässige Lohnbuchhaltungsdienstleistungen",
+      "business": "Unternehmensbuchhaltung",
+      "businessDesc": "Buchhaltung für Einzelunternehmer, Partnerschaften und Kapitalgesellschaften"
+    },
+    "media": {
+      "title": "Video- und Fotoinhalte",
+      "description": "Professionelle Drohnenfotografie und Videografie",
+      "dronePhoto": "Drohnenfotos und -videos",
+      "dronePhotoDesc": "Atemberaubende Luftaufnahmen",
+      "promo": "Werbefilme",
+      "promoDesc": "Aufmerksamkeitserregende Marketingmaterialien",
+      "social": "Social-Media-Inhalte",
+      "socialDesc": "Einzigartige Inhalte für soziale Medien"
+    }
+  },
+  "references": {
+    "title": "Unsere Arbeiten",
+    "subtitle": "Projekte und Erfolgsgeschichten",
+    "viewMore": "Mehr anzeigen",
+    "socialFeed": "Soziale Medien"
+  },
+  "about": {
+    "title": "Über Uns",
+    "subtitle": "Erfahrung, Fachwissen, Präzision",
+    "intro": "Plant Saver & Accounting GmbH bietet professionelle Dienstleistungen in zwei Schlüsselbereichen: Präzisionslandwirtschaft und Buchhaltung. Unser Team ist bestrebt, unseren Kunden die modernste Technologie und den zuverlässigsten fachlichen Hintergrund zu bieten.",
+    "experience": "Mehr als 5 Jahre Erfahrung in landwirtschaftlichen Drohnenvermessungen",
+    "certified": "Offizielle Drohnenpilotenlizenzen und Versicherungen",
+    "expertise": "Buchhaltungsexpertise für landwirtschaftliche Unternehmen",
+    "mission": "Unsere Mission ist es, unseren Kunden zu helfen, eine effizientere Landwirtschaft und ein transparentes Finanzmanagement zu erreichen, indem wir die neueste Technologie mit traditionellem Fachwissen kombinieren."
+  },
+  "whyUs": {
+    "title": "Warum Uns Wählen?",
+    "subtitle": "Was wir bieten",
+    "precision": {
+      "title": "Präzision",
+      "description": "Zentimetergenaue Vermessungen mit modernster Technologie"
+    },
+    "speed": {
+      "title": "Geschwindigkeit",
+      "description": "Schnelle Projektdurchführung und pünktliche Lieferung"
+    },
+    "expertise": {
+      "title": "Fachwissen",
+      "description": "Langjährige Erfahrung und kontinuierliche berufliche Weiterentwicklung"
+    },
+    "reliability": {
+      "title": "Zuverlässigkeit",
+      "description": "Genaue, detaillierte Arbeit und umfassender Kundenservice"
+    },
+    "technology": {
+      "title": "Moderne Technologie",
+      "description": "Verwendung der neuesten Drohnen und Software"
+    },
+    "local": {
+      "title": "Lokale Präsenz",
+      "description": "Schnelle Verfügbarkeit im Kreis Győr-Moson-Sopron"
+    }
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Nehmen Sie Kontakt mit uns auf",
+    "form": {
+      "title": "Angebot anfordern",
+      "serviceType": "Dienstleistungsart",
+      "selectService": "Dienstleistung auswählen",
+      "droneSurvey": "Drohnenvermessung",
+      "accounting": "Buchhaltung",
+      "videoContent": "Video-/Fotoinhalte",
+      "budget": "Geschätztes Budget",
+      "selectBudget": "Auswählen (optional)",
+      "under100": "Unter 100.000 HUF",
+      "100to300": "100.000 - 300.000 HUF",
+      "300to500": "300.000 - 500.000 HUF",
+      "above500": "Über 500.000 HUF",
+      "companyName": "Firmen- / Betriebsname",
+      "contactName": "Name der Kontaktperson",
+      "email": "E-Mail-Adresse",
+      "phone": "Telefonnummer",
+      "message": "Nachricht",
+      "messagePlaceholder": "Beschreiben Sie Ihre Anfrage im Detail...",
+      "submit": "Angebot anfordern",
+      "sending": "Wird gesendet...",
+      "success": "Vielen Dank! Wir werden uns in Kürze mit Ihnen in Verbindung setzen.",
+      "error": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut oder rufen Sie uns an."
+    },
+    "info": {
+      "title": "Kontaktinformationen",
+      "address": "Mosonmagyaróvár, Kreis Győr-Moson-Sopron",
+      "phone": "+36 XX XXX XXXX",
+      "email": "info@plantsaver.hu"
+    }
+  },
+  "footer": {
+    "description": "Präzise landwirtschaftliche Drohnenvermessungen und professionelle Buchhaltungsdienstleistungen.",
+    "services": "Dienstleistungen",
+    "company": "Unternehmen",
+    "legal": "Rechtliches",
+    "privacy": "Datenschutz",
+    "terms": "Allgemeine Geschäftsbedingungen",
+    "rights": "Alle Rechte vorbehalten"
+  },
+  "seo": {
+    "home": {
+      "title": "Plant Saver & Accounting GmbH - Präzisionslandwirtschaft und Buchhaltung",
+      "description": "Professionelle Drohnenvermessungen, NDVI-Kartierung, Wildschadensbewertung und landwirtschaftliche Buchhaltung im Kreis Győr-Moson-Sopron."
+    },
+    "services": {
+      "title": "Dienstleistungen - Plant Saver & Accounting",
+      "description": "Drohnenvermessungen, landwirtschaftliche Buchhaltung, Steuerberatung, Lohnbuchhaltung und Videoinhalte."
+    },
+    "references": {
+      "title": "Referenzen - Plant Saver & Accounting",
+      "description": "Sehen Sie sich unsere Arbeiten und Erfolgsgeschichten in landwirtschaftlichen Drohnenvermessungen an."
+    },
+    "about": {
+      "title": "Über Uns - Plant Saver & Accounting",
+      "description": "Erfahren Sie mehr über unser Team, unsere Erfahrung und unsere Mission in der Präzisionslandwirtschaft."
+    },
+    "contact": {
+      "title": "Kontakt - Plant Saver & Accounting",
+      "description": "Fordern Sie ein Angebot für Drohnenvermessungen oder Buchhaltungsdienstleistungen an. Schneller Kontakt."
+    }
+  }
+}
+

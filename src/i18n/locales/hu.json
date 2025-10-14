@@ -1,0 +1,161 @@
+{
+  "nav": {
+    "home": "Kezdőlap",
+    "services": "Szolgáltatások",
+    "references": "Referenciák",
+    "about": "Rólunk",
+    "whyUs": "Miért minket?",
+    "contact": "Kapcsolat"
+  },
+  "hero": {
+    "title": "Precíziós Technológia a Mezőgazdaságban",
+    "subtitle": "Drónos felmérések és professzionális könyvelési szolgáltatások egy helyen",
+    "cta": "Kérjen ajánlatot",
+    "scrollDown": "Görgess lejjebb"
+  },
+  "services": {
+    "title": "Szolgáltatásaink",
+    "subtitle": "Innovatív megoldások a mezőgazdaságban és üzleti életben",
+    "drone": {
+      "title": "Precíziós Drónfelmérések",
+      "description": "Professzionális mezőgazdasági térképezés a legmodernebb drón technológiával",
+      "ndvi": "NDVI térképezés",
+      "ndviDesc": "Növényállomány egészségének pontos felmérése",
+      "yield": "Hozambecslés",
+      "yieldDesc": "Pontos előrejelzés a várható terméshozamról",
+      "damage": "Vadkár felmérés",
+      "damageDesc": "Gyors és pontos kárbecslés drónnal",
+      "area": "Területmérés",
+      "areaDesc": "Precíz földterület felmérés"
+    },
+    "accounting": {
+      "title": "Mezőgazdasági Könyvelés",
+      "description": "Teljes körű könyvelési és adótanácsadási szolgáltatások",
+      "tax": "Adótanácsadás",
+      "taxDesc": "Szakértő tanácsadás adóoptimalizálásban",
+      "payroll": "Bérszámfejtés",
+      "payrollDesc": "Megbízható bérszámfejtési szolgáltatás",
+      "business": "Vállalkozások könyvelése",
+      "businessDesc": "EV, BT, Kft. és egyéb szervezetek könyvelése"
+    },
+    "media": {
+      "title": "Videós és Fotós Tartalmak",
+      "description": "Professzionális drónos fotó- és videófelvételek",
+      "dronePhoto": "Drónos fotók és videók",
+      "dronePhotoDesc": "Lélegzetelállító légi felvételek",
+      "promo": "Promóciós filmek",
+      "promoDesc": "Figyelemfelkeltő marketing anyagok",
+      "social": "Social media tartalmak",
+      "socialDesc": "Egyedi tartalmak közösségi médiára"
+    }
+  },
+  "references": {
+    "title": "Referenciáink",
+    "subtitle": "Munkáink és sikertörténeteink",
+    "viewMore": "További munkák",
+    "socialFeed": "Közösségi média"
+  },
+  "about": {
+    "title": "Rólunk",
+    "subtitle": "Tapasztalat, szakértelem, precízió",
+    "intro": "A Plant Saver & Accounting Kft. két alapvető területen nyújt professzionális szolgáltatásokat: a precíziós mezőgazdaságban és a könyvelésben. Csapatunk elkötelezett amellett, hogy ügyfeleink a legmodernebb technológiát és a legmegbízhatóbb szakmai hátteret kapják.",
+    "experience": "Több mint 5 év tapasztalat a mezőgazdasági drónos felmérésekben",
+    "certified": "Hivatalos drónpilóta engedélyek és biztosítások",
+    "expertise": "Könyvelési szakértelem mezőgazdasági vállalkozásokhoz",
+    "mission": "Küldetésünk, hogy a legmodernebb technológiát és a hagyományos szakértelmet ötvözve segítsük ügyfeleinket a hatékonyabb gazdálkodásban és az átlátható pénzügyi menedzsmentben."
+  },
+  "whyUs": {
+    "title": "Miért válasszon minket?",
+    "subtitle": "Amit kínálunk",
+    "precision": {
+      "title": "Precizitás",
+      "description": "Centiméteres pontosságú felmérések a legmodernebb technológiával"
+    },
+    "speed": {
+      "title": "Gyorsaság",
+      "description": "Gyors projektvégrehajtás és határidőre történő teljesítés"
+    },
+    "expertise": {
+      "title": "Szakértelem",
+      "description": "Több éves tapasztalat és folyamatos szakmai fejlődés"
+    },
+    "reliability": {
+      "title": "Megbízhatóság",
+      "description": "Pontos, részletes munkavégzés és teljes körű ügyfélszolgálat"
+    },
+    "technology": {
+      "title": "Modern Technológia",
+      "description": "A legújabb drónok és szoftverek használata"
+    },
+    "local": {
+      "title": "Helyi Jelenlét",
+      "description": "Gyors elérhetőség Győr-Moson-Sopron megyében"
+    }
+  },
+  "contact": {
+    "title": "Kapcsolat",
+    "subtitle": "Vegye fel velünk a kapcsolatot",
+    "form": {
+      "title": "Ajánlatkérő Űrlap",
+      "serviceType": "Szolgáltatás típusa",
+      "selectService": "Válasszon szolgáltatást",
+      "droneSurvey": "Drónos felmérés",
+      "accounting": "Könyvelés",
+      "videoContent": "Videós/Fotós tartalom",
+      "budget": "Becsült költségkeret",
+      "selectBudget": "Válasszon (opcionális)",
+      "under100": "100.000 Ft alatt",
+      "100to300": "100.000 - 300.000 Ft",
+      "300to500": "300.000 - 500.000 Ft",
+      "above500": "500.000 Ft felett",
+      "companyName": "Cégnév / Gazdaságnév",
+      "contactName": "Kapcsolattartó neve",
+      "email": "E-mail cím",
+      "phone": "Telefonszám",
+      "message": "Megjegyzés",
+      "messagePlaceholder": "Írja le kérését részletesen...",
+      "submit": "Ajánlat kérése",
+      "sending": "Küldés...",
+      "success": "Köszönjük! Hamarosan felvesszük Önnel a kapcsolatot.",
+      "error": "Hiba történt. Kérjük, próbálja újra vagy hívjon minket."
+    },
+    "info": {
+      "title": "Kapcsolati Adatok",
+      "address": "Mosonmagyaróvár, Győr-Moson-Sopron megye",
+      "phone": "+36 XX XXX XXXX",
+      "email": "info@plantsaver.hu"
+    }
+  },
+  "footer": {
+    "description": "Precíziós mezőgazdasági drónfelmérések és professzionális könyvelési szolgáltatások.",
+    "services": "Szolgáltatások",
+    "company": "Cég",
+    "legal": "Jogi",
+    "privacy": "Adatvédelem",
+    "terms": "Általános Szerződési Feltételek",
+    "rights": "Minden jog fenntartva"
+  },
+  "seo": {
+    "home": {
+      "title": "Plant Saver & Accounting Kft. - Precíziós Mezőgazdaság és Könyvelés",
+      "description": "Professzionális drónos felmérések, NDVI térképezés, vadkár felmérés és mezőgazdasági könyvelés Győr-Moson-Sopron megyében."
+    },
+    "services": {
+      "title": "Szolgáltatások - Plant Saver & Accounting",
+      "description": "Drónos felmérések, mezőgazdasági könyvelés, adótanácsadás, bérszámfejtés és videós tartalmak."
+    },
+    "references": {
+      "title": "Referenciák - Plant Saver & Accounting",
+      "description": "Tekintse meg munkáinkat és sikertörténeteinket a mezőgazdasági drónfelmérések területén."
+    },
+    "about": {
+      "title": "Rólunk - Plant Saver & Accounting",
+      "description": "Ismerje meg csapatunkat, tapasztalatunkat és küldetésünket a precíziós mezőgazdaságban."
+    },
+    "contact": {
+      "title": "Kapcsolat - Plant Saver & Accounting",
+      "description": "Kérjen ajánlatot drónos felmérésre vagy könyvelési szolgáltatásra. Gyors kapcsolatfelvétel."
+    }
+  }
+}
+
