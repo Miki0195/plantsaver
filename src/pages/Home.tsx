@@ -86,7 +86,7 @@ const Home: React.FC = () => {
             </h1> */}
             
             {/* Service Cards */}
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12 max-w-7xl mx-auto">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 mb-8 md:mb-12 max-w-7xl mx-auto px-4 md:px-0">
               {[
                 {
                   title: 'Fotós-videós tartalmak készítése',
@@ -114,7 +114,7 @@ const Home: React.FC = () => {
                   initial={{ opacity: 0, y: 50 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.6, delay: 0.9 + index * 0.1 }}
-                  className="group relative h-64 rounded-2xl overflow-hidden shadow-2xl cursor-pointer transform hover:scale-105 transition-all duration-300"
+                  className="group relative h-48 sm:h-56 md:h-64 rounded-xl md:rounded-2xl overflow-hidden shadow-xl md:shadow-2xl cursor-pointer transform hover:scale-105 transition-all duration-300"
                 >
                   {/* Background Image */}
                   <div
@@ -126,14 +126,14 @@ const Home: React.FC = () => {
                   <div className={`absolute inset-0 bg-gradient-to-br ${service.gradient} opacity-60 group-hover:opacity-80 transition-opacity duration-300`} />
                   
                   {/* Content */}
-                  <div className="relative h-full flex items-center justify-center p-6">
-                    <h3 className="text-xl md:text-2xl font-bold text-white text-center leading-tight drop-shadow-lg">
+                  <div className="relative h-full flex items-center justify-center p-4 sm:p-5 md:p-6">
+                    <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-white text-center leading-tight drop-shadow-lg">
                       {service.title}
                     </h3>
                   </div>
                   
                   {/* Hover Effect Border */}
-                  <div className="absolute inset-0 border-2 border-accent-gold opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-2xl" />
+                  <div className="absolute inset-0 border-2 border-accent-gold opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-xl md:rounded-2xl" />
                 </motion.div>
               ))}
             </div>
