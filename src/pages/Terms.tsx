@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FileText, CheckCircle, AlertCircle, Scale } from 'lucide-react';
+import { FileText, CheckCircle, Scale } from 'lucide-react';
 
 const Terms: React.FC = () => {
   return (

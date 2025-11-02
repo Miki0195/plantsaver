@@ -8,8 +8,6 @@ import {
   AlertCircle,
   Ruler,
   Calculator,
-  FileText,
-  DollarSign,
   Building2,
   Video,
   Camera,
