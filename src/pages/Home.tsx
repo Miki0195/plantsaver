@@ -114,7 +114,7 @@ const Home: React.FC = () => {
                   initial={{ opacity: 0, y: 50 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.6, delay: 0.9 + index * 0.1 }}
-                  className="group relative h-48 sm:h-56 md:h-64 rounded-xl md:rounded-2xl overflow-hidden shadow-xl md:shadow-2xl cursor-pointer transform hover:scale-105 transition-all duration-300"
+                  className="group relative h-36 sm:h-48 md:h-56 lg:h-64 rounded-xl md:rounded-2xl overflow-hidden shadow-xl md:shadow-2xl cursor-pointer transform hover:scale-105 transition-all duration-300"
                 >
                   {/* Background Image */}
                   <div
@@ -126,8 +126,8 @@ const Home: React.FC = () => {
                   <div className={`absolute inset-0 bg-gradient-to-br ${service.gradient} opacity-60 group-hover:opacity-80 transition-opacity duration-300`} />
                   
                   {/* Content */}
-                  <div className="relative h-full flex items-center justify-center p-4 sm:p-5 md:p-6">
-                    <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-white text-center leading-tight drop-shadow-lg">
+                  <div className="relative h-full flex items-center justify-center p-3 sm:p-4 md:p-5 lg:p-6">
+                    <h3 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold text-white text-center leading-tight drop-shadow-lg">
                       {service.title}
                     </h3>
                   </div>
