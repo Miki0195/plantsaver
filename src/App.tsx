@@ -8,6 +8,8 @@ import References from './pages/References';
 import About from './pages/About';
 import WhyUs from './pages/WhyUs';
 import Contact from './pages/Contact';
+import Privacy from './pages/Privacy';
+import Terms from './pages/Terms';
 
 // SEO Component
 const SEO: React.FC = () => {
@@ -37,6 +39,12 @@ const SEO: React.FC = () => {
         titleKey = 'seo.contact.title';
         descKey = 'seo.contact.description';
         break;
+      case '/privacy':
+        document.title = 'Adatvédelmi Nyilatkozat - Plant Saver & Accounting';
+        return;
+      case '/terms':
+        document.title = 'Általános Szerződési Feltételek - Plant Saver & Accounting';
+        return;
     }
 
     document.title = t(titleKey);
@@ -65,9 +73,8 @@ const App: React.FC = () => {
           <Route path="about" element={<About />} />
           <Route path="why-us" element={<WhyUs />} />
           <Route path="contact" element={<Contact />} />
-          {/* Add privacy and terms pages if needed */}
-          <Route path="privacy" element={<div className="min-h-screen pt-24 pb-20 container mx-auto px-4"><h1 className="text-4xl font-bold">Adatvédelmi Nyilatkozat</h1></div>} />
-          <Route path="terms" element={<div className="min-h-screen pt-24 pb-20 container mx-auto px-4"><h1 className="text-4xl font-bold">Általános Szerződési Feltételek</h1></div>} />
+          <Route path="privacy" element={<Privacy />} />
+          <Route path="terms" element={<Terms />} />
         </Route>
       </Routes>
     </Router>

@@ -14,6 +14,11 @@ import {
   Video,
   Camera,
   Share2,
+  Monitor,
+  Palette,
+  Smartphone,
+  ShoppingCart,
+  Search,
 } from 'lucide-react';
 
 const Services: React.FC = () => {
@@ -43,16 +48,16 @@ const Services: React.FC = () => {
   ];
 
   const accountingServices = [
-    {
-      icon: DollarSign,
-      title: t('services.accounting.tax'),
-      description: t('services.accounting.taxDesc'),
-    },
-    {
-      icon: FileText,
-      title: t('services.accounting.payroll'),
-      description: t('services.accounting.payrollDesc'),
-    },
+    // {
+    //   icon: DollarSign,
+    //   title: t('services.accounting.tax'),
+    //   description: t('services.accounting.taxDesc'),
+    // },
+    // {
+    //   icon: FileText,
+    //   title: t('services.accounting.payroll'),
+    //   description: t('services.accounting.payrollDesc'),
+    // },
     {
       icon: Building2,
       title: t('services.accounting.business'),
@@ -75,6 +80,29 @@ const Services: React.FC = () => {
       icon: Share2,
       title: t('services.media.social'),
       description: t('services.media.socialDesc'),
+    },
+  ];
+
+  const webdevServices = [
+    {
+      icon: Palette,
+      title: t('services.webdev.design'),
+      description: t('services.webdev.designDesc'),
+    },
+    {
+      icon: Smartphone,
+      title: t('services.webdev.responsive'),
+      description: t('services.webdev.responsiveDesc'),
+    },
+    {
+      icon: ShoppingCart,
+      title: t('services.webdev.ecommerce'),
+      description: t('services.webdev.ecommerceDesc'),
+    },
+    {
+      icon: Search,
+      title: t('services.webdev.seo'),
+      description: t('services.webdev.seoDesc'),
     },
   ];
 
@@ -158,7 +186,7 @@ const Services: React.FC = () => {
             </p>
           </motion.div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+          <div className="flex justify-center max-w-6xl mx-auto">
             {accountingServices.map((service, index) => (
               <motion.div
                 key={index}
@@ -166,7 +194,7 @@ const Services: React.FC = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: index * 0.1 }}
-                className="bg-white rounded-xl p-6 border border-amber-200 hover:shadow-lg transition-shadow"
+                className="bg-white rounded-xl p-6 border border-amber-200 hover:shadow-lg transition-shadow w-full max-w-md"
               >
                 <service.icon className="text-amber-600 mb-4" size={40} />
                 <h3 className="text-2xl font-bold text-primary-dark mb-2">
@@ -209,6 +237,46 @@ const Services: React.FC = () => {
                 className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-xl p-6 border border-purple-200 hover:shadow-lg transition-shadow"
               >
                 <service.icon className="text-purple-600 mb-4" size={40} />
+                <h3 className="text-2xl font-bold text-primary-dark mb-2">
+                  {service.title}
+                </h3>
+                <p className="text-gray-600">{service.description}</p>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Web Development Services */}
+      <section className="py-20 bg-gradient-to-br from-green-50 to-emerald-50">
+        <div className="container mx-auto px-4">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="text-center mb-12"
+          >
+            <Monitor className="text-accent-gold mx-auto mb-4" size={64} />
+            <h2 className="text-4xl font-serif font-bold text-primary-dark mb-4">
+              {t('services.webdev.title')}
+            </h2>
+            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+              {t('services.webdev.description')}
+            </p>
+          </motion.div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
+            {webdevServices.map((service, index) => (
+              <motion.div
+                key={index}
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6, delay: index * 0.1 }}
+                className="bg-white rounded-xl p-6 border border-green-200 hover:shadow-lg transition-shadow"
+              >
+                <service.icon className="text-green-600 mb-4" size={40} />
                 <h3 className="text-2xl font-bold text-primary-dark mb-2">
                   {service.title}
                 </h3>

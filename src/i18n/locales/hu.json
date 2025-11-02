@@ -17,8 +17,8 @@
     "title": "Szolgáltatásaink",
     "subtitle": "Innovatív megoldások a mezőgazdaságban és üzleti életben",
     "drone": {
-      "title": "Precíziós Drónfelmérések",
-      "description": "Professzionális mezőgazdasági térképezés a legmodernebb drón technológiával",
+      "title": "Mezőgazdasági Felmérések",
+      "description": "NDVI térkép készítése, növény stressz állapot mérés, vadkár mérés, terület mérés",
       "ndvi": "NDVI térképezés",
       "ndviDesc": "Növényállomány egészségének pontos felmérése",
       "yield": "Hozambecslés",
@@ -29,8 +29,8 @@
       "areaDesc": "Precíz földterület felmérés"
     },
     "accounting": {
-      "title": "Mezőgazdasági Könyvelés",
-      "description": "Teljes körű könyvelési és adótanácsadási szolgáltatások",
+      "title": "Könyvelés",
+      "description": "EV, KFT, BT, vállalkozások teljes körű könyvelése",
       "tax": "Adótanácsadás",
       "taxDesc": "Szakértő tanácsadás adóoptimalizálásban",
       "payroll": "Bérszámfejtés",
@@ -40,13 +40,25 @@
     },
     "media": {
       "title": "Videós és Fotós Tartalmak",
-      "description": "Professzionális drónos fotó- és videófelvételek",
+      "description": "social média tartalom gyártás, social felületek kezelése, reklám/marketing videó, esküvői kisfilm",
       "dronePhoto": "Drónos fotók és videók",
       "dronePhotoDesc": "Lélegzetelállító légi felvételek",
       "promo": "Promóciós filmek",
       "promoDesc": "Figyelemfelkeltő marketing anyagok",
       "social": "Social media tartalmak",
       "socialDesc": "Egyedi tartalmak közösségi médiára"
+    },
+    "webdev": {
+      "title": "Weblap Készítés",
+      "description": "Tervezéstől a megvalósításig - egyszerű bemutatkozó oldalakon át webshopokig",
+      "design": "Tervezés és UX",
+      "designDesc": "Modern, felhasználóbarát dizájn tervezés",
+      "responsive": "Reszponzív fejlesztés",
+      "responsiveDesc": "Minden eszközön tökéletesen működő weboldalak",
+      "ecommerce": "Webshop fejlesztés",
+      "ecommerceDesc": "Teljes körű e-kereskedelmi megoldások",
+      "seo": "SEO optimalizálás",
+      "seoDesc": "Keresőoptimalizált weboldal a jobb láthatóságért"
     }
   },
   "references": {
@@ -58,10 +70,10 @@
   "about": {
     "title": "Rólunk",
     "subtitle": "Tapasztalat, szakértelem, precízió",
-    "intro": "A Plant Saver & Accounting Kft. két alapvető területen nyújt professzionális szolgáltatásokat: a precíziós mezőgazdaságban és a könyvelésben. Csapatunk elkötelezett amellett, hogy ügyfeleink a legmodernebb technológiát és a legmegbízhatóbb szakmai hátteret kapják.",
-    "experience": "Több mint 5 év tapasztalat a mezőgazdasági drónos felmérésekben",
+    "intro": "A Plant Saver & Accounting Kft. négy alapvető területen nyújt professzionális szolgáltatásokat: mezőgazdasági felmérésekben, könyvelésben, fotó- videó tartalmak megalkotásában, illetve weblap készítésben. Csapatunk elkötelezett amellett, hogy ügyfeleink a legmodernebb technológiát és a legmegbízhatóbb szakmai hátteret kapják.",
+    "experience": "Több éves tapasztalat a mezőgazdasági drónos felmérésekben",
     "certified": "Hivatalos drónpilóta engedélyek és biztosítások",
-    "expertise": "Könyvelési szakértelem mezőgazdasági vállalkozásokhoz",
+    "expertise": "Könyvelési szakértelem vállalkozásokhoz",
     "mission": "Küldetésünk, hogy a legmodernebb technológiát és a hagyományos szakértelmet ötvözve segítsük ügyfeleinket a hatékonyabb gazdálkodásban és az átlátható pénzügyi menedzsmentben."
   },
   "whyUs": {
@@ -121,9 +133,9 @@
     },
     "info": {
       "title": "Kapcsolati Adatok",
-      "address": "Mosonmagyaróvár, Győr-Moson-Sopron megye",
-      "phone": "+36 XX XXX XXXX",
-      "email": "info@plantsaver.hu"
+      "address": "Mosonmagyaróvár, Károly út 54.1/6",
+      "phone": "+36 30 860 1033",
+      "email": "plantsaver2022@gmail.com"
     }
   },
   "footer": {
@@ -138,11 +150,11 @@
   "seo": {
     "home": {
       "title": "Plant Saver & Accounting Kft. - Precíziós Mezőgazdaság és Könyvelés",
-      "description": "Professzionális drónos felmérések, NDVI térképezés, vadkár felmérés és mezőgazdasági könyvelés Győr-Moson-Sopron megyében."
+      "description": "Professzionális drónos felmérések, NDVI térképezés, vadkár felmérés és könyvelés Győr-Moson-Sopron megyében."
     },
     "services": {
       "title": "Szolgáltatások - Plant Saver & Accounting",
-      "description": "Drónos felmérések, mezőgazdasági könyvelés, adótanácsadás, bérszámfejtés és videós tartalmak."
+      "description": "Drónos felmérések, könyvelés, adótanácsadás, bérszámfejtés és videós tartalmak."
     },
     "references": {
       "title": "Referenciák - Plant Saver & Accounting",

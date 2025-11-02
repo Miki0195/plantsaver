@@ -114,11 +114,12 @@ const WhyUs: React.FC = () => {
       {/* Stats Section */}
       <section className="py-20 bg-gradient-to-br from-primary-dark to-primary-blue">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-6xl mx-auto">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 max-w-7xl mx-auto">
             {[
-              { number: '500+', label: 'Hektár felmérve' },
-              { number: '100+', label: 'Elégedett ügyfél' },
-              { number: '5+', label: 'Év tapasztalat' },
+              { number: '50+', label: 'Hektár felmérve' },
+              { number: '30+', label: 'Elégedett ügyfél' },
+              { number: '2+', label: 'Év tapasztalat' },
+              { number: '100K+', label: 'Generált megtekintés' },
               { number: '24/7', label: 'Elérhetőség' },
             ].map((stat, index) => (
               <motion.div

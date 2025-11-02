@@ -7,7 +7,10 @@ import { Mail, Phone, MapPin, Send } from 'lucide-react';
 interface FormData {
   serviceType: string;
   budget: string;
+  entityType: string;
   companyName: string;
+  taxNumber?: string;
+  address?: string;
   contactName: string;
   email: string;
   phone: string;
@@ -24,7 +27,10 @@ const Contact: React.FC = () => {
     handleSubmit,
     formState: { errors },
     reset,
+    watch,
   } = useForm<FormData>();
+
+  const entityType = watch('entityType');
 
   const onSubmit = async (data: FormData) => {
     setIsSubmitting(true);
@@ -167,6 +173,7 @@ const Contact: React.FC = () => {
                       <option value="drone">{t('contact.form.droneSurvey')}</option>
                       <option value="accounting">{t('contact.form.accounting')}</option>
                       <option value="video">{t('contact.form.videoContent')}</option>
+                      <option value="webdev">Weblap készítés</option>
                     </select>
                     {errors.serviceType && (
                       <span className="text-red-500 text-sm">Kérjük válasszon szolgáltatást</span>
@@ -190,10 +197,29 @@ const Contact: React.FC = () => {
                     </select>
                   </div>
 
-                  {/* Company Name */}
+                  {/* Entity Type */}
                   <div>
                     <label className="block text-sm font-semibold text-primary-dark mb-2">
-                      {t('contact.form.companyName')} *
+                      Típus *
+                    </label>
+                    <select
+                      {...register('entityType', { required: true })}
+                      className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-accent-gold focus:ring-2 focus:ring-accent-gold/20 outline-none transition-all"
+                    >
+                      <option value="">Válasszon típust...</option>
+                      <option value="private">Magánszemély</option>
+                      <option value="company">Cég/Vállalkozás</option>
+                      <option value="farm">Gazdaság</option>
+                    </select>
+                    {errors.entityType && (
+                      <span className="text-red-500 text-sm">Kötelező mező</span>
+                    )}
+                  </div>
+
+                  {/* Company Name - conditional label based on entity type */}
+                  <div>
+                    <label className="block text-sm font-semibold text-primary-dark mb-2">
+                      {entityType === 'private' ? 'Név' : entityType === 'company' ? 'Cégnév' : entityType === 'farm' ? 'Gazdaság neve' : 'Cégnév'} *
                     </label>
                     <input
                       type="text"
@@ -204,6 +230,56 @@ const Contact: React.FC = () => {
                       <span className="text-red-500 text-sm">Kötelező mező</span>
                     )}
                   </div>
+
+                  {/* Address - only for private persons */}
+                  {entityType === 'private' && (
+                    <motion.div
+                      initial={{ opacity: 0, height: 0 }}
+                      animate={{ opacity: 1, height: 'auto' }}
+                      exit={{ opacity: 0, height: 0 }}
+                      transition={{ duration: 0.3 }}
+                    >
+                      <label className="block text-sm font-semibold text-primary-dark mb-2">
+                        Cím *
+                      </label>
+                      <input
+                        type="text"
+                        {...register('address', { 
+                          required: entityType === 'private' 
+                        })}
+                        placeholder="Pl: 1234 Budapest, Példa utca 12."
+                        className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-accent-gold focus:ring-2 focus:ring-accent-gold/20 outline-none transition-all"
+                      />
+                      {errors.address && (
+                        <span className="text-red-500 text-sm">Kötelező mező</span>
+                      )}
+                    </motion.div>
+                  )}
+
+                  {/* Tax Number - only for companies and farms */}
+                  {(entityType === 'company' || entityType === 'farm') && (
+                    <motion.div
+                      initial={{ opacity: 0, height: 0 }}
+                      animate={{ opacity: 1, height: 'auto' }}
+                      exit={{ opacity: 0, height: 0 }}
+                      transition={{ duration: 0.3 }}
+                    >
+                      <label className="block text-sm font-semibold text-primary-dark mb-2">
+                        Adószám *
+                      </label>
+                      <input
+                        type="text"
+                        {...register('taxNumber', { 
+                          required: entityType === 'company' || entityType === 'farm'
+                        })}
+                        placeholder="12345678-1-23"
+                        className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-accent-gold focus:ring-2 focus:ring-accent-gold/20 outline-none transition-all"
+                      />
+                      {errors.taxNumber && (
+                        <span className="text-red-500 text-sm">Kötelező mező</span>
+                      )}
+                    </motion.div>
+                  )}
 
                   {/* Contact Name */}
                   <div>

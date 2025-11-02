@@ -47,6 +47,18 @@
       "promoDesc": "Attention-grabbing marketing materials",
       "social": "Social Media Content",
       "socialDesc": "Unique content for social media"
+    },
+    "webdev": {
+      "title": "Web Development",
+      "description": "From design to execution - from simple bio pages to webshops",
+      "design": "Design and UX",
+      "designDesc": "Modern, user-friendly design",
+      "responsive": "Responsive Development",
+      "responsiveDesc": "Perfectly functioning websites on all devices",
+      "ecommerce": "E-commerce Development",
+      "ecommerceDesc": "Complete e-commerce solutions",
+      "seo": "SEO Optimization",
+      "seoDesc": "Search optimized websites for better visibility"
     }
   },
   "references": {

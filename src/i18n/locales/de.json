@@ -47,6 +47,18 @@
       "promoDesc": "Aufmerksamkeitserregende Marketingmaterialien",
       "social": "Social-Media-Inhalte",
       "socialDesc": "Einzigartige Inhalte für soziale Medien"
+    },
+    "webdev": {
+      "title": "Webentwicklung",
+      "description": "Von der Gestaltung bis zur Umsetzung - von einfachen Bio-Seiten bis zu Webshops",
+      "design": "Design und UX",
+      "designDesc": "Modernes, benutzerfreundliches Design",
+      "responsive": "Responsive Entwicklung",
+      "responsiveDesc": "Perfekt funktionierende Websites auf allen Geräten",
+      "ecommerce": "Webshop-Entwicklung",
+      "ecommerceDesc": "Umfassende E-Commerce-Lösungen",
+      "seo": "SEO-Optimierung",
+      "seoDesc": "Suchoptimierte Website für bessere Sichtbarkeit"
     }
   },
   "references": {
